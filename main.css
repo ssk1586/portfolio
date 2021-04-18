@@ -1,0 +1,160 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: #6c7279;
+  font-size: 14px;
+  line-height: 21px;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.menu {
+  background-color: #3a3e64;
+  margin-bottom: 180px;
+}
+.nav-menu {
+  padding: 15px 0;
+}
+.menu-ul {
+  display: inline-block;
+  width: 1066px;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  list-style: none;
+  text-align: right;
+}
+
+.menu-ul li {
+  display: inline-block;
+}
+
+.menu-ul li:not(:first-child) {
+  margin-left: 60px;
+}
+
+.menu-ul a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 16px;
+}
+.menu-ul a:hover,
+.menu-ul a:focus {
+  color: red;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.home-list {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  font-size: 0px;
+}
+.list-items h3 {
+  color: black;
+  line-height: 17px;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+.list-items p {
+  font-size: 14px;
+}
+.list-items {
+  text-align: center;
+  margin-right: 30px;
+  display: inline-block;
+  width: 370px;
+  margin-bottom: 74px;
+  padding: 0 38px;
+}
+.list-items:nth-child(3n) {
+  margin-right: 0px;
+}
+.list-items:nth-last-child(-n + 3) {
+  margin-bottom: 0px;
+}
+.home {
+  margin-bottom: 120px;
+}
+
+.team-list {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  font-size: 0px;
+}
+
+.description {
+  font-size: 14px;
+}
+
+.name {
+  font-size: 22px;
+  line-height: 16px;
+}
+.position {
+  font-size: 13px;
+  color: red;
+}
+
+.team-items {
+  display: inline-block;
+  width: 270px;
+}
+
+.team-items:not(:last-child) {
+  margin-right: 30px;
+}
+.team {
+  margin-bottom: 120px;
+}
+.socials a {
+  display: block;
+  height: 40px;
+  width: 40px;
+  border: 1px solid rgb(232, 236, 238);
+}
+.socials {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 14px;
+}
+.socials li {
+  display: inline-block;
+}
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
